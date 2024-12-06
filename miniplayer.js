@@ -36,9 +36,9 @@ audio.addEventListener("timeupdate", () => {
 });
 
 // Contrôle du volume
-//volumeControl.addEventListener("input", (e) => {
-//  audio.volume = e.target.value;
-//});
+volumeControl.addEventListener("input", (e) => {
+  audio.volume = e.target.value;
+});
 
 // Avance rapide via la barre de progression
 progressContainer.addEventListener("click", (e) => {
